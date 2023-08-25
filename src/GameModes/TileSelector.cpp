@@ -12,8 +12,10 @@ namespace BlatFormer
 
         DrawLine(SCREEN_WIDTH - TILE_SIZE * 1.5, 0, SCREEN_WIDTH - TILE_SIZE * 1.5, SCREEN_HEIGHT, BLACK);
         
+        DrawRectangleLinesEx({(float)(SCREEN_WIDTH - TILE_SIZE * 1.25), 0, (float)TILE_SIZE,(float)TILE_SIZE},2,BLACK);
+
         for(int i = 0; i < 16; i++)
-            Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE,i * (TILE_SIZE + 5),i);
+            Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE * 1.25,i * (TILE_SIZE + 15),i);
     }
     void LevelEditor::TileSelector::Update()
     {
