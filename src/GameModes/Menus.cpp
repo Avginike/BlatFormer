@@ -1,0 +1,89 @@
+#include "DataStructures/GameMode.hpp"
+#include "Menus.hpp"
+#include "UIElements/Sprite.hpp"
+#include "main.hpp"
+#include "LevelSelect.hpp"
+#include "DataStructures/Level.hpp"
+#include "LevelEditor.hpp"
+
+#include <iostream>
+#include <array>
+
+#include <raymath.h>
+
+namespace BlatFormer
+{
+
+
+    void MainMenu::Render() 
+    {
+        
+        for(auto &Sprite : Sprites)
+        {
+            Sprite.Render();
+        }
+
+
+        GameNameOutline.RenderCentered();
+        GameName.RenderCentered();
+        
+        PlayButton.Render();
+        EditorButton.Render();
+        ExitButton.Render();
+        
+    }
+    void MainMenu::Update()
+    {
+
+        PlayButton.Update();
+        EditorButton.Update();
+        ExitButton.Update();
+        
+    }
+    void MainMenu::Start()
+    {
+
+        
+
+
+        ExitButton.OnClickEvent = [](){ ShouldWindowClose = true; };
+        EditorButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<LevelEditor>>()); };
+        PlayButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<Level>>()); };
+
+        PlayButton.Label.text = "Start";
+        EditorButton.Label.text = "Editor";
+        ExitButton.Label.text = "Exit";
+
+        EditorButton.position = Vector2Add(PlayButton.position, Vector2{0,75});
+        ExitButton.position = Vector2Add(EditorButton.position, Vector2{0,75});
+
+        GameNameOutline.Properties.fontSize = 75;
+        GameName.Properties.color = {255,255,255,255};
+
+        int x{1};
+        for(auto &texture: StarTextures)
+        {
+            texture = LoadTexture(((string)ASSETS_PATH + "sprites/stars" + to_string(x) + ".png").c_str());
+            x++;
+        }
+        int y{0};
+        for(auto &sprite : Sprites)
+        {
+            uint8_t random = GetRandomValue(0,5);
+            
+            float spritesize = 32;
+            
+            float spritey = 6 * (y + GetRandomValue(-90,90));
+            float spritex =  8 * y - GetRandomValue(-30,30);
+
+            sprite.position = {spritex,spritey};
+            sprite.size = {spritesize,spritesize};
+            sprite.texture = &(StarTextures)[random];
+            
+            y++;
+        }
+        
+        
+    }
+
+}

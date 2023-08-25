@@ -1,0 +1,19 @@
+CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj: \
+ C:\Users\janek\Projects\BlatFormer\src\DataStructures\NibblePair.cpp \
+ C:\Users\janek\Projects\BlatFormer\src\DataStructures\NibblePair.hpp \
+ c:\path\mingw64\include\c++\12.2.0\cstdint \
+ c:\path\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++config.h \
+ c:\path\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\os_defines.h \
+ c:\path\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
+ c:\path\mingw64\include\c++\12.2.0\pstl\pstl_config.h \
+ c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stdint.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\stdint.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\corecrt.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\vadefs.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stddef.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\stddef.h
