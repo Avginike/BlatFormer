@@ -3,7 +3,7 @@
 #include <functional>
 namespace BlatFormer
 {
-    extern bool ShouldWindowClose;
+    
 
     extern int SCREEN_WIDTH;
     extern int SCREEN_HEIGHT;

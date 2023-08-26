@@ -21,7 +21,7 @@ namespace BlatFormer
 
             TextProperty Label{};
             std::function<void()> OnClickEvent;
-            Color color;
+            Color color = BLACK;
             
             
            

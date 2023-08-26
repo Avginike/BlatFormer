@@ -13,9 +13,14 @@ namespace BlatFormer
     class GameMode
     {
         static std::stack<std::unique_ptr<GameMode>> modeStack;
+        
 
         public:
-           static void SetEnterGameMode(std::unique_ptr<GameMode> mode);
+            static bool GameHasToExit;
+            static void ExitGame();
+            
+
+            static void SetEnterGameMode(std::unique_ptr<GameMode> mode);
 
 
 

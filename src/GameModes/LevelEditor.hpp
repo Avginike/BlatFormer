@@ -23,18 +23,22 @@ namespace BlatFormer
         class TileSelector: public UIElement
         {  
             friend class LevelEditor;
+            static Texture2D EraserTexture;
 
             uint8_t CurrentBlockID{0};
             public:
                 void Update();
                 void Render();
+
+            
         };
-        
+
         TileSelector Selector{};
 
         public:
             void Update();
             void Render();
+            void Start();
 
             LevelEditor(string filepath): Level(filepath){};  
     };

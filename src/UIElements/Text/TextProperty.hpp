@@ -12,7 +12,7 @@ namespace BlatFormer
 
             std::string text{};
             Font* font{};
-            Color color{BLACK};
+            Color color{WHITE};
             float fontSize{25};
             float spacing{5};
 

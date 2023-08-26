@@ -6,10 +6,12 @@
 namespace BlatFormer {
 
     std::stack<std::unique_ptr<GameMode>> GameMode::modeStack = std::stack<std::unique_ptr<GameMode>>();
+    bool GameMode::GameHasToExit = false;
     void GameMode::SetEnterGameMode(std::unique_ptr<GameMode> mode) 
     {
         modeStack.push(std::move(mode));
         modeStack.top()->Start();
+
     }
     void GameMode::PushMode(std::unique_ptr<GameMode> mode) 
     {
@@ -20,7 +22,15 @@ namespace BlatFormer {
     void GameMode::ExitMode()
     {
         End();
-        modeStack.pop();
+        
+        if(modeStack.size() > 1)
+        {
+            modeStack.pop();
+        }
+        else
+        {
+            ExitGame();
+        }
         
     }
     void GameMode::RenderCurrentMode() 
@@ -31,4 +41,9 @@ namespace BlatFormer {
     {
         modeStack.top()->Update();
     }
+    void GameMode::ExitGame()
+    {
+        GameHasToExit = true;
+    }
+    
 }

@@ -15,7 +15,7 @@
 
 namespace BlatFormer
 {
-    bool ShouldWindowClose = false;
+    
 
     int SCREEN_WIDTH = 1280;
     int SCREEN_HEIGHT = 720;
@@ -47,21 +47,21 @@ int main()
    
     SetExitKey(KEY_NULL);
 
-    while(!ShouldWindowClose)
+    while(!GameMode::GameHasToExit)
     {
 
         
 
         BeginDrawing();  
 
-        ClearBackground(GRAY);
+        ClearBackground(BLACK);
         
         
         if(IsKeyPressed(KEY_F11) || IsKeyDown(KEY_LEFT_ALT) && IsKeyPressed(KEY_ENTER))
         {
             ToggleFullscreen();
         }
-        ShouldWindowClose = WindowShouldClose();
+        GameMode::GameHasToExit = WindowShouldClose();
 
         GameMode::UpdateCurrentMode();
         GameMode::RenderCurrentMode();

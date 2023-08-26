@@ -13,11 +13,13 @@
 namespace BlatFormer 
 {
     Texture2D Level::OrbTexture;
+    Texture2D Level::FinishTexture;
 
     void Level::Start()
     {
         OrbTexture = LoadTexture(ASSETS_PATH"sprites/orb.png");
-        
+        FinishTexture = LoadTexture(ASSETS_PATH"sprites/finish.png");
+
         int TileAmount = ceil((float)TILES_HORIZONTAL * (float)(TILES_VERTICAL + 1) / 2.0);
         LevelData = std::vector<NibblePair>(TileAmount, NibblePair());
 
@@ -103,10 +105,10 @@ namespace BlatFormer
                 color = PURPLE;
                 break;
             case 3:
-                color = RAYWHITE;
+                color = GRAY;
                 break;
             case 4:
-                color = BLACK;
+                color = WHITE;
                 break;
             case 5:
                 color = DARKGRAY;
@@ -115,7 +117,7 @@ namespace BlatFormer
                 color = LIGHTGRAY;
                 break;
             case 7:
-                color = WHITE;
+                color = PINK;
                 break;
             case 8:
                 color = RED;
@@ -139,8 +141,8 @@ namespace BlatFormer
                 color = YELLOW;
                 break;
             case 15:
-                color = ORANGE;
-                break;
+                color = WHITE;
+                DrawTextureEx(FinishTexture, {(float)x , (float)y }, 0, TILE_SIZE / FinishTexture.height * scale, WHITE);
             default:
                 return;
         }
@@ -195,5 +197,7 @@ namespace BlatFormer
             return LevelData[NibbleIndex].GetL();
         }
     }
+
+    
 
 }

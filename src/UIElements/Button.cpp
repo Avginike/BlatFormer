@@ -43,7 +43,7 @@ namespace BlatFormer
         Rectangle ScaledRectangle = Rectangle{position.x  - sizex / 2, position.y - sizey / 2, size.x * scale, size.y * scale};
 
         DrawRectangleRounded(ScaledRectangle,0.25,10, color);
-        DrawRectangleRoundedLines(ScaledRectangle,0.25,10,2, BLACK);
+        DrawRectangleRoundedLines(ScaledRectangle,0.25,10,2, WHITE);
 
         if(Label.text != "")
         {

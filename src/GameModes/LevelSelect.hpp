@@ -45,7 +45,7 @@ namespace BlatFormer
             void Start()
             {
                 
-                Buttons.push_back(Button(Vector2{105,(float)SCREEN_HEIGHT - 30},Vector2{200,50},RAYWHITE,[&](){ExitMode();}));
+                Buttons.push_back(Button(Vector2{105,(float)SCREEN_HEIGHT - 30},Vector2{200,50},BLACK,[&](){ExitMode();}));
                 Buttons.front().Label = TextProperty{"Exit"};
 
                 InitLevelButtons();
@@ -57,7 +57,7 @@ namespace BlatFormer
                 for(int i = 0; i < FileList.count; i++)
                 {
                     Buttons.push_back(Button(Vector2{(float)SCREEN_WIDTH / 2, (float)SCREEN_HEIGHT / 2 + (float)i * 150},
-                    Vector2{200,50},RAYWHITE,
+                    Vector2{200,50},BLACK,
                     [=]()
                     {
                         auto mode = std::make_unique<T>( (string)FileList.paths[i]);

@@ -29,7 +29,7 @@ namespace BlatFormer
 
         Button PlayButton{
             Vector2{(float)SCREEN_WIDTH / 2, (float)SCREEN_HEIGHT / 2},Vector2{200,50},
-            RAYWHITE,[](){std::cout << "Button Pressed!";}};
+            BLACK,[](){std::cout << "Button Pressed!";}};
 
         Button EditorButton = PlayButton;
         Button ExitButton = PlayButton;

@@ -23,7 +23,6 @@ namespace BlatFormer
             Sprite.Render();
         }
 
-
         GameNameOutline.RenderCentered();
         GameName.RenderCentered();
         
@@ -38,6 +37,11 @@ namespace BlatFormer
         PlayButton.Update();
         EditorButton.Update();
         ExitButton.Update();
+
+        if(IsKeyPressed(KEY_ESCAPE))
+        {
+            ExitMode();
+        }
         
     }
     void MainMenu::Start()
@@ -46,7 +50,7 @@ namespace BlatFormer
         
 
 
-        ExitButton.OnClickEvent = [](){ ShouldWindowClose = true; };
+        ExitButton.OnClickEvent = [](){ ExitGame(); };
         EditorButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<LevelEditor>>()); };
         PlayButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<Level>>()); };
 
@@ -57,8 +61,12 @@ namespace BlatFormer
         EditorButton.position = Vector2Add(PlayButton.position, Vector2{0,75});
         ExitButton.position = Vector2Add(EditorButton.position, Vector2{0,75});
 
-        GameNameOutline.Properties.fontSize = 75;
-        GameName.Properties.color = {255,255,255,255};
+        GameNameOutline.position.x += 5;
+        GameNameOutline.position.y += 5;
+        
+        GameName.Properties.color = WHITE;
+        GameNameOutline.Properties.color = GRAY;
+        
 
         int x{1};
         for(auto &texture: StarTextures)

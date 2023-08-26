@@ -68,11 +68,26 @@ include CMakeFiles/raylib_template.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/raylib_template.dir/flags.make
 
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/CollisionSystem/box.cpp
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj -MF CMakeFiles\raylib_template.dir\src\CollisionSystem\box.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\CollisionSystem\box.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\CollisionSystem\box.cpp
+
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\CollisionSystem\box.cpp > CMakeFiles\raylib_template.dir\src\CollisionSystem\box.cpp.i
+
+CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\CollisionSystem\box.cpp -o CMakeFiles\raylib_template.dir\src\CollisionSystem\box.cpp.s
+
 CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
 CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/DataStructures/GameMode.cpp
 CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj -MF CMakeFiles\raylib_template.dir\src\DataStructures\GameMode.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\DataStructures\GameMode.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\DataStructures\GameMode.cpp
 
 CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj: CMakeFiles/rayl
 CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/DataStructures/Level.cpp
 CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj -MF CMakeFiles\raylib_template.dir\src\DataStructures\Level.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\DataStructures\Level.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\DataStructures\Level.cpp
 
 CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj: CMakeFiles
 CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/DataStructures/NibblePair.cpp
 CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj -MF CMakeFiles\raylib_template.dir\src\DataStructures\NibblePair.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\DataStructures\NibblePair.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\DataStructures\NibblePair.cpp
 
 CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.i: cmake_force
@@ -113,26 +128,41 @@ CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.s"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\DataStructures\NibblePair.cpp -o CMakeFiles\raylib_template.dir\src\DataStructures\NibblePair.cpp.s
 
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/LevelEditor.cpp
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/LevelEditor/LevelEditor.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\LevelEditor.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\LevelEditor.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\LevelEditor.cpp
 
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.i"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor.cpp > CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor.cpp.i
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\LevelEditor.cpp > CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\LevelEditor.cpp.i
 
-CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.s"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor.cpp.s
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\LevelEditor.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\LevelEditor.cpp.s
+
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/LevelEditor/TileSelector.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\TileSelector.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\TileSelector.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\TileSelector.cpp
+
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\TileSelector.cpp > CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\TileSelector.cpp.i
+
+CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor\TileSelector.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\LevelEditor\TileSelector.cpp.s
 
 CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
 CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/Menu.cpp
 CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\Menu.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\Menu.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\Menu.cpp
 
 CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.i: cmake_force
@@ -147,7 +177,7 @@ CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj: CMakeFiles/raylib_te
 CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/Menus.cpp
 CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\Menus.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\Menus.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\Menus.cpp
 
 CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.i: cmake_force
@@ -158,26 +188,41 @@ CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.s"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\Menus.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\Menus.cpp.s
 
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/TileSelector.cpp
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\TileSelector.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\TileSelector.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\TileSelector.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/PlayingLevel/Player.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\Player.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\Player.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\Player.cpp
 
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.i"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\TileSelector.cpp > CMakeFiles\raylib_template.dir\src\GameModes\TileSelector.cpp.i
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\Player.cpp > CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\Player.cpp.i
 
-CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.s"
-	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\TileSelector.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\TileSelector.cpp.s
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\Player.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\Player.cpp.s
+
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/GameModes/PlayingLevel/PlayingLevel.cpp
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj -MF CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\PlayingLevel.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\PlayingLevel.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\PlayingLevel.cpp
+
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\PlayingLevel.cpp > CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\PlayingLevel.cpp.i
+
+CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\PlayingLevel.cpp -o CMakeFiles\raylib_template.dir\src\GameModes\PlayingLevel\PlayingLevel.cpp.s
 
 CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
 CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Button.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Button.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Button.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Button.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.i: cmake_force
@@ -192,7 +237,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Sprite.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Sprite.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Sprite.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Sprite.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.i: cmake_force
@@ -207,7 +252,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_te
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Text.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Text.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Text.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Text.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.i: cmake_force
@@ -222,7 +267,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFi
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Text/TextProperty.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Text\TextProperty.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Text\TextProperty.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Text\TextProperty.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.i: cmake_force
@@ -237,7 +282,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/rayl
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/UIElement.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\UIElement.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\UIElement.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\UIElement.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.i: cmake_force
@@ -252,7 +297,7 @@ CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/main.cpp
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raylib_template.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/raylib_template.dir/src/main.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/main.cpp.obj -MF CMakeFiles\raylib_template.dir\src\main.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\main.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\main.cpp
 
 CMakeFiles/raylib_template.dir/src/main.cpp.i: cmake_force
@@ -265,13 +310,16 @@ CMakeFiles/raylib_template.dir/src/main.cpp.s: cmake_force
 
 # Object files for target raylib_template
 raylib_template_OBJECTS = \
+"CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj" \
-"CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj" \
+"CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj" \
+"CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj" \
-"CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj" \
+"CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj" \
+"CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj" \
@@ -282,13 +330,16 @@ raylib_template_OBJECTS = \
 # External object files for target raylib_template
 raylib_template_EXTERNAL_OBJECTS =
 
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/DataStructures/GameMode.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/DataStructures/Level.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.obj
-raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/Menu.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj
-raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj
@@ -301,7 +352,7 @@ raylib_template.exe: libs/raylib/raylib/external/glfw/src/libglfw3.a
 raylib_template.exe: CMakeFiles/raylib_template.dir/linkLibs.rsp
 raylib_template.exe: CMakeFiles/raylib_template.dir/objects1
 raylib_template.exe: CMakeFiles/raylib_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable raylib_template.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable raylib_template.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\raylib_template.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

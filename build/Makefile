@@ -232,6 +232,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make libs/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+src/CollisionSystem/box.obj: src/CollisionSystem/box.cpp.obj
+.PHONY : src/CollisionSystem/box.obj
+
+# target to build an object file
+src/CollisionSystem/box.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.obj
+.PHONY : src/CollisionSystem/box.cpp.obj
+
+src/CollisionSystem/box.i: src/CollisionSystem/box.cpp.i
+.PHONY : src/CollisionSystem/box.i
+
+# target to preprocess a source file
+src/CollisionSystem/box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.i
+.PHONY : src/CollisionSystem/box.cpp.i
+
+src/CollisionSystem/box.s: src/CollisionSystem/box.cpp.s
+.PHONY : src/CollisionSystem/box.s
+
+# target to generate assembly for a file
+src/CollisionSystem/box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/CollisionSystem/box.cpp.s
+.PHONY : src/CollisionSystem/box.cpp.s
+
 src/DataStructures/GameMode.obj: src/DataStructures/GameMode.cpp.obj
 .PHONY : src/DataStructures/GameMode.obj
 
@@ -304,29 +328,53 @@ src/DataStructures/NibblePair.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/DataStructures/NibblePair.cpp.s
 .PHONY : src/DataStructures/NibblePair.cpp.s
 
-src/GameModes/LevelEditor.obj: src/GameModes/LevelEditor.cpp.obj
-.PHONY : src/GameModes/LevelEditor.obj
+src/GameModes/LevelEditor/LevelEditor.obj: src/GameModes/LevelEditor/LevelEditor.cpp.obj
+.PHONY : src/GameModes/LevelEditor/LevelEditor.obj
 
 # target to build an object file
-src/GameModes/LevelEditor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.obj
-.PHONY : src/GameModes/LevelEditor.cpp.obj
+src/GameModes/LevelEditor/LevelEditor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.obj
+.PHONY : src/GameModes/LevelEditor/LevelEditor.cpp.obj
 
-src/GameModes/LevelEditor.i: src/GameModes/LevelEditor.cpp.i
-.PHONY : src/GameModes/LevelEditor.i
+src/GameModes/LevelEditor/LevelEditor.i: src/GameModes/LevelEditor/LevelEditor.cpp.i
+.PHONY : src/GameModes/LevelEditor/LevelEditor.i
 
 # target to preprocess a source file
-src/GameModes/LevelEditor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.i
-.PHONY : src/GameModes/LevelEditor.cpp.i
+src/GameModes/LevelEditor/LevelEditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.i
+.PHONY : src/GameModes/LevelEditor/LevelEditor.cpp.i
 
-src/GameModes/LevelEditor.s: src/GameModes/LevelEditor.cpp.s
-.PHONY : src/GameModes/LevelEditor.s
+src/GameModes/LevelEditor/LevelEditor.s: src/GameModes/LevelEditor/LevelEditor.cpp.s
+.PHONY : src/GameModes/LevelEditor/LevelEditor.s
 
 # target to generate assembly for a file
-src/GameModes/LevelEditor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor.cpp.s
-.PHONY : src/GameModes/LevelEditor.cpp.s
+src/GameModes/LevelEditor/LevelEditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/LevelEditor.cpp.s
+.PHONY : src/GameModes/LevelEditor/LevelEditor.cpp.s
+
+src/GameModes/LevelEditor/TileSelector.obj: src/GameModes/LevelEditor/TileSelector.cpp.obj
+.PHONY : src/GameModes/LevelEditor/TileSelector.obj
+
+# target to build an object file
+src/GameModes/LevelEditor/TileSelector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.obj
+.PHONY : src/GameModes/LevelEditor/TileSelector.cpp.obj
+
+src/GameModes/LevelEditor/TileSelector.i: src/GameModes/LevelEditor/TileSelector.cpp.i
+.PHONY : src/GameModes/LevelEditor/TileSelector.i
+
+# target to preprocess a source file
+src/GameModes/LevelEditor/TileSelector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.i
+.PHONY : src/GameModes/LevelEditor/TileSelector.cpp.i
+
+src/GameModes/LevelEditor/TileSelector.s: src/GameModes/LevelEditor/TileSelector.cpp.s
+.PHONY : src/GameModes/LevelEditor/TileSelector.s
+
+# target to generate assembly for a file
+src/GameModes/LevelEditor/TileSelector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/LevelEditor/TileSelector.cpp.s
+.PHONY : src/GameModes/LevelEditor/TileSelector.cpp.s
 
 src/GameModes/Menu.obj: src/GameModes/Menu.cpp.obj
 .PHONY : src/GameModes/Menu.obj
@@ -376,29 +424,53 @@ src/GameModes/Menus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.s
 .PHONY : src/GameModes/Menus.cpp.s
 
-src/GameModes/TileSelector.obj: src/GameModes/TileSelector.cpp.obj
-.PHONY : src/GameModes/TileSelector.obj
+src/GameModes/PlayingLevel/Player.obj: src/GameModes/PlayingLevel/Player.cpp.obj
+.PHONY : src/GameModes/PlayingLevel/Player.obj
 
 # target to build an object file
-src/GameModes/TileSelector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.obj
-.PHONY : src/GameModes/TileSelector.cpp.obj
+src/GameModes/PlayingLevel/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj
+.PHONY : src/GameModes/PlayingLevel/Player.cpp.obj
 
-src/GameModes/TileSelector.i: src/GameModes/TileSelector.cpp.i
-.PHONY : src/GameModes/TileSelector.i
+src/GameModes/PlayingLevel/Player.i: src/GameModes/PlayingLevel/Player.cpp.i
+.PHONY : src/GameModes/PlayingLevel/Player.i
 
 # target to preprocess a source file
-src/GameModes/TileSelector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.i
-.PHONY : src/GameModes/TileSelector.cpp.i
+src/GameModes/PlayingLevel/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.i
+.PHONY : src/GameModes/PlayingLevel/Player.cpp.i
 
-src/GameModes/TileSelector.s: src/GameModes/TileSelector.cpp.s
-.PHONY : src/GameModes/TileSelector.s
+src/GameModes/PlayingLevel/Player.s: src/GameModes/PlayingLevel/Player.cpp.s
+.PHONY : src/GameModes/PlayingLevel/Player.s
 
 # target to generate assembly for a file
-src/GameModes/TileSelector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/TileSelector.cpp.s
-.PHONY : src/GameModes/TileSelector.cpp.s
+src/GameModes/PlayingLevel/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.s
+.PHONY : src/GameModes/PlayingLevel/Player.cpp.s
+
+src/GameModes/PlayingLevel/PlayingLevel.obj: src/GameModes/PlayingLevel/PlayingLevel.cpp.obj
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.obj
+
+# target to build an object file
+src/GameModes/PlayingLevel/PlayingLevel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.cpp.obj
+
+src/GameModes/PlayingLevel/PlayingLevel.i: src/GameModes/PlayingLevel/PlayingLevel.cpp.i
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.i
+
+# target to preprocess a source file
+src/GameModes/PlayingLevel/PlayingLevel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.i
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.cpp.i
+
+src/GameModes/PlayingLevel/PlayingLevel.s: src/GameModes/PlayingLevel/PlayingLevel.cpp.s
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.s
+
+# target to generate assembly for a file
+src/GameModes/PlayingLevel/PlayingLevel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.s
+.PHONY : src/GameModes/PlayingLevel/PlayingLevel.cpp.s
 
 src/UIElements/Button.obj: src/UIElements/Button.cpp.obj
 .PHONY : src/UIElements/Button.obj
@@ -562,6 +634,9 @@ help:
 	@echo ... glfw
 	@echo ... raylib
 	@echo ... raylib_template
+	@echo ... src/CollisionSystem/box.obj
+	@echo ... src/CollisionSystem/box.i
+	@echo ... src/CollisionSystem/box.s
 	@echo ... src/DataStructures/GameMode.obj
 	@echo ... src/DataStructures/GameMode.i
 	@echo ... src/DataStructures/GameMode.s
@@ -571,18 +646,24 @@ help:
 	@echo ... src/DataStructures/NibblePair.obj
 	@echo ... src/DataStructures/NibblePair.i
 	@echo ... src/DataStructures/NibblePair.s
-	@echo ... src/GameModes/LevelEditor.obj
-	@echo ... src/GameModes/LevelEditor.i
-	@echo ... src/GameModes/LevelEditor.s
+	@echo ... src/GameModes/LevelEditor/LevelEditor.obj
+	@echo ... src/GameModes/LevelEditor/LevelEditor.i
+	@echo ... src/GameModes/LevelEditor/LevelEditor.s
+	@echo ... src/GameModes/LevelEditor/TileSelector.obj
+	@echo ... src/GameModes/LevelEditor/TileSelector.i
+	@echo ... src/GameModes/LevelEditor/TileSelector.s
 	@echo ... src/GameModes/Menu.obj
 	@echo ... src/GameModes/Menu.i
 	@echo ... src/GameModes/Menu.s
 	@echo ... src/GameModes/Menus.obj
 	@echo ... src/GameModes/Menus.i
 	@echo ... src/GameModes/Menus.s
-	@echo ... src/GameModes/TileSelector.obj
-	@echo ... src/GameModes/TileSelector.i
-	@echo ... src/GameModes/TileSelector.s
+	@echo ... src/GameModes/PlayingLevel/Player.obj
+	@echo ... src/GameModes/PlayingLevel/Player.i
+	@echo ... src/GameModes/PlayingLevel/Player.s
+	@echo ... src/GameModes/PlayingLevel/PlayingLevel.obj
+	@echo ... src/GameModes/PlayingLevel/PlayingLevel.i
+	@echo ... src/GameModes/PlayingLevel/PlayingLevel.s
 	@echo ... src/UIElements/Button.obj
 	@echo ... src/UIElements/Button.i
 	@echo ... src/UIElements/Button.s
