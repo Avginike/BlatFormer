@@ -53,6 +53,7 @@ namespace BlatFormer
             uint8_t tempx, tempy;
 
             in >> tempx >> tempy;
+            
             StartingPosition = {(float)tempx,(float)tempy};
 
             for(int i = 0; i < LevelData.size(); i++)
@@ -143,6 +144,7 @@ namespace BlatFormer
             case 15:
                 color = WHITE;
                 DrawTextureEx(FinishTexture, {(float)x , (float)y }, 0, TILE_SIZE / FinishTexture.height * scale, WHITE);
+                return;
             default:
                 return;
         }

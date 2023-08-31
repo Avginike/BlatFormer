@@ -3,8 +3,9 @@
 #include "UIElements/Sprite.hpp"
 #include "main.hpp"
 #include "LevelSelect.hpp"
-#include "DataStructures/Level.hpp"
+
 #include "LevelEditor.hpp"
+#include "PlayingLevel.hpp"
 
 #include <iostream>
 #include <array>
@@ -52,7 +53,7 @@ namespace BlatFormer
 
         ExitButton.OnClickEvent = [](){ ExitGame(); };
         EditorButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<LevelEditor>>()); };
-        PlayButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<Level>>()); };
+        PlayButton.OnClickEvent = [&](){ PushMode(std::make_unique<LevelSelect<PlayingLevel>>()); };
 
         PlayButton.Label.text = "Start";
         EditorButton.Label.text = "Editor";

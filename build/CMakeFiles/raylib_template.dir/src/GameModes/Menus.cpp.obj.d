@@ -200,6 +200,7 @@ CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj: \
  C:/Users/janek/Projects/BlatFormer/src/DataStructures/Level.hpp \
  C:/Users/janek/Projects/BlatFormer/src/DataStructures/NibblePair.hpp \
  C:\Users\janek\Projects\BlatFormer\src\GameModes\LevelEditor.hpp \
+ C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel.hpp \
  C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raymath.h \
  c:\path\mingw64\include\c++\12.2.0\math.h \
  c:\path\mingw64\include\c++\12.2.0\cmath \

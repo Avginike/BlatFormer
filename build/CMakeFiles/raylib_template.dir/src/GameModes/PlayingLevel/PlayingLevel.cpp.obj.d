@@ -1,7 +1,7 @@
 CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: \
  C:\Users\janek\Projects\BlatFormer\src\GameModes\PlayingLevel\PlayingLevel.cpp \
  C:/Users/janek/Projects/BlatFormer/src/GameModes/PlayingLevel.hpp \
- C:/Users/janek/Projects/BlatFormer/src/DataStructures/GameMode.hpp \
+ C:/Users/janek/Projects/BlatFormer/src/DataStructures/Level.hpp \
  c:\path\mingw64\include\c++\12.2.0\vector \
  c:\path\mingw64\include\c++\12.2.0\bits\stl_algobase.h \
  c:\path\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++config.h \
@@ -46,30 +46,30 @@ CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: 
  c:\path\mingw64\include\c++\12.2.0\backward\binders.h \
  c:\path\mingw64\include\c++\12.2.0\bits\range_access.h \
  c:\path\mingw64\include\c++\12.2.0\bits\vector.tcc \
- c:\path\mingw64\include\c++\12.2.0\cstdint \
- c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stdint.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\stdint.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\crtdefs.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\corecrt.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\_mingw.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\vadefs.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
- c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stddef.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\stddef.h \
  c:\path\mingw64\include\c++\12.2.0\string \
  c:\path\mingw64\include\c++\12.2.0\bits\stringfwd.h \
  c:\path\mingw64\include\c++\12.2.0\bits\char_traits.h \
  c:\path\mingw64\include\c++\12.2.0\bits\postypes.h \
  c:\path\mingw64\include\c++\12.2.0\cwchar \
  c:\path\mingw64\x86_64-w64-mingw32\include\wchar.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\corecrt.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\vadefs.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
  c:\path\mingw64\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
  c:\path\mingw64\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
  c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_off_t.h \
  c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_stat64.h \
  c:\path\mingw64\x86_64-w64-mingw32\include\swprintf.inl \
  c:\path\mingw64\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
+ c:\path\mingw64\include\c++\12.2.0\cstdint \
+ c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stdint.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\stdint.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stddef.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\stddef.h \
  c:\path\mingw64\include\c++\12.2.0\bits\localefwd.h \
  c:\path\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++locale.h \
  c:\path\mingw64\include\c++\12.2.0\clocale \
@@ -100,6 +100,12 @@ CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: 
  c:\path\mingw64\include\c++\12.2.0\cerrno \
  c:\path\mingw64\include\c++\12.2.0\bits\charconv.h \
  c:\path\mingw64\include\c++\12.2.0\bits\basic_string.tcc \
+ C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raylib.h \
+ c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stdarg.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\stdarg.h \
+ c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_stdarg.h \
+ C:/Users/janek/Projects/BlatFormer/src/DataStructures/NibblePair.hpp \
+ C:/Users/janek/Projects/BlatFormer/src/DataStructures/GameMode.hpp \
  c:\path\mingw64\include\c++\12.2.0\stack \
  c:\path\mingw64\include\c++\12.2.0\deque \
  c:\path\mingw64\include\c++\12.2.0\bits\stl_deque.h \
@@ -147,7 +153,37 @@ CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj: 
  c:\path\mingw64\include\c++\12.2.0\pstl\glue_memory_defs.h \
  c:\path\mingw64\include\c++\12.2.0\pstl\execution_defs.h \
  C:/Users/janek/Projects/BlatFormer/src/UIElements/UIElement.hpp \
- C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raylib.h \
- c:\path\mingw64\lib\gcc\x86_64-w64-mingw32\12.2.0\include\stdarg.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\stdarg.h \
- c:\path\mingw64\x86_64-w64-mingw32\include\_mingw_stdarg.h
+ C:/Users/janek/Projects/BlatFormer/src/main.hpp \
+ c:\path\mingw64\include\c++\12.2.0\functional \
+ c:\path\mingw64\include\c++\12.2.0\bits\std_function.h \
+ c:\path\mingw64\include\c++\12.2.0\unordered_map \
+ c:\path\mingw64\include\c++\12.2.0\bits\hashtable.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\hashtable_policy.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\enable_special_members.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\node_handle.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\unordered_map.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\erase_if.h \
+ c:\path\mingw64\include\c++\12.2.0\array \
+ c:\path\mingw64\include\c++\12.2.0\compare \
+ c:\path\mingw64\include\c++\12.2.0\bits\stl_algo.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\stl_heap.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
+ C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raymath.h \
+ c:\path\mingw64\include\c++\12.2.0\math.h \
+ c:\path\mingw64\include\c++\12.2.0\cmath \
+ c:\path\mingw64\x86_64-w64-mingw32\include\math.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\specfun.h \
+ c:\path\mingw64\include\c++\12.2.0\limits \
+ c:\path\mingw64\include\c++\12.2.0\tr1\gamma.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\special_function_util.h \
+ c:\path\mingw64\include\c++\12.2.0\tr1\bessel_function.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\beta_function.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\ell_integral.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\exp_integral.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\hypergeometric.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\legendre_function.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\modified_bessel_func.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\poly_hermite.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\poly_laguerre.tcc \
+ c:\path\mingw64\include\c++\12.2.0\tr1\riemann_zeta.tcc

@@ -17,7 +17,7 @@ namespace BlatFormer
         DrawTextureEx(EraserTexture, Vector2{(float)(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2 ), 0},0, TILE_SIZE / EraserTexture.height, WHITE);
 
         for(int i = 1; i < 16; i++)
-            Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2,i * (TILE_SIZE + 12),i);
+            Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2,i * (TILE_SIZE + 10),i);
         
         
     }
@@ -27,7 +27,12 @@ namespace BlatFormer
         {
             for(int i = 0; i < 16; i++)
             {     
-                    Rectangle TileRect = {float(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2),float( i * (TILE_SIZE + 12)), (float)TILE_SIZE, (float)TILE_SIZE};
+                    Rectangle TileRect = {
+                        float(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2),
+                        float( i * (TILE_SIZE + 10)),
+                        float(TILE_SIZE),
+                        float(TILE_SIZE)
+                        };
                     
                     if(CheckCollisionPointRec(GetMousePosition(), TileRect))
                     {
@@ -35,7 +40,16 @@ namespace BlatFormer
                         break;
                     }
             }
-
+            if(
+                CheckCollisionPointRec(GetMousePosition(),{
+                float(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2),
+                float( 16 * (TILE_SIZE + 10)),
+                float(TILE_SIZE),
+                float(TILE_SIZE)
+                }))   
+            {
+                CurrentBlockID = 16;
+            }
         }
 
     }

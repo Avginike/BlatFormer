@@ -19,17 +19,13 @@ namespace BlatFormer
             static Texture2D OrbTexture;
             static Texture2D FinishTexture;
 
-            
             void RenderMap(double xOffset, double yOffset, float scale = 1);
 
-            void SetGrid(int x, int y, uint8_t state);
-            uint8_t GetGrid(int x, int y);
-
-            
         
         public:
             
-
+            void SetGrid(int x, int y, uint8_t state);
+            uint8_t GetGrid(int x, int y);
 
 
             static void RenderBlock(double x, double y, uint8_t state, float scale = 1);

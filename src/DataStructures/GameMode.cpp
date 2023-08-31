@@ -22,7 +22,8 @@ namespace BlatFormer {
     void GameMode::ExitMode()
     {
         End();
-        
+
+
         if(modeStack.size() > 1)
         {
             modeStack.pop();
@@ -31,6 +32,7 @@ namespace BlatFormer {
         {
             ExitGame();
         }
+       
         
     }
     void GameMode::RenderCurrentMode() 

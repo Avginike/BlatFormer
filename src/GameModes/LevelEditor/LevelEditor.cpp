@@ -22,7 +22,7 @@ namespace BlatFormer
 
         Vector2 mousePos = GetMousePosition();
         
-        if(mousePos.x < (SCREEN_WIDTH - TILE_SIZE * 1.5))
+        if((IsMouseButtonDown(MOUSE_BUTTON_LEFT) || IsMouseButtonDown(MOUSE_BUTTON_RIGHT)) && mousePos.x < (SCREEN_WIDTH - TILE_SIZE * 1.5))
         {
             
             mousePos.x -= xOffset * scale * TILE_SIZE;
@@ -31,15 +31,27 @@ namespace BlatFormer
 
             int hoveredTileX = static_cast<int>(mousePos.x / (TILE_SIZE * scale));
             int hoveredTileY = static_cast<int>(mousePos.y / (TILE_SIZE * scale));
-
-       
-            if((hoveredTileX >= 0 && hoveredTileX < TILES_HORIZONTAL && hoveredTileY >= 0 && hoveredTileY < TILES_VERTICAL + 1)
-            && IsMouseButtonDown(MOUSE_BUTTON_LEFT))
+            if(IsMouseButtonDown(MOUSE_BUTTON_LEFT))
             {
-                SetGrid(hoveredTileX, hoveredTileY, Selector.CurrentBlockID);
+                if(Selector.CurrentBlockID == 16 )
+                {
+                    StartingPosition = {(float)hoveredTileX, (float)hoveredTileY};
+                    std::cout << StartingPosition.x << " " << StartingPosition.y << std::endl;
+                }
+                else if((hoveredTileX >= 0 && hoveredTileX < TILES_HORIZONTAL && hoveredTileY >= 0 && hoveredTileY < TILES_VERTICAL + 1))
+                {
+                    SetGrid(hoveredTileX, hoveredTileY, Selector.CurrentBlockID);
+                }
             }
-
+            else if(IsMouseButtonDown(MOUSE_BUTTON_RIGHT))
+            {
+                if((hoveredTileX >= 0 && hoveredTileX < TILES_HORIZONTAL && hoveredTileY >= 0 && hoveredTileY < TILES_VERTICAL + 1))
+                {
+                    SetGrid(hoveredTileX, hoveredTileY, 0);
+                }
+            }
         }
+
 
         float MouseWheelState = GetMouseWheelMove();
         
@@ -66,9 +78,17 @@ namespace BlatFormer
         if(IsKeyDown(KEY_S))
         {
             if(IsKeyDown(KEY_LEFT_CONTROL))
+            {
                 Save();
+                
+            }
             else 
                 yOffset -= EditorMoveSpeed / scale;
+        }
+        
+        if(IsKeyDown(KEY_E))
+        {
+            Selector.CurrentBlockID = 0;
         }
 
         if(IsKeyDown(KEY_LEFT_CONTROL) &&  IsKeyPressed(KEY_R))
