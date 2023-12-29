@@ -56,6 +56,11 @@
 },
 {
   "directory": "C:/Users/janek/Projects/BlatFormer/build",
+  "command": "C:\\PATH\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/janek/Projects/BlatFormer/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DLEVLES_PATH=\\\"C:/Users/janek/Projects/BlatFormer/levels\\\" -DPLATFORM_DESKTOP @CMakeFiles/raylib_template.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\raylib_template.dir\\src\\UIElements\\DebugConsole.cpp.obj -c C:\\Users\\janek\\Projects\\BlatFormer\\src\\UIElements\\DebugConsole.cpp",
+  "file": "C:/Users/janek/Projects/BlatFormer/src/UIElements/DebugConsole.cpp"
+},
+{
+  "directory": "C:/Users/janek/Projects/BlatFormer/build",
   "command": "C:\\PATH\\mingw64\\bin\\g++.exe -DASSETS_PATH=\\\"C:/Users/janek/Projects/BlatFormer/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DLEVLES_PATH=\\\"C:/Users/janek/Projects/BlatFormer/levels\\\" -DPLATFORM_DESKTOP @CMakeFiles/raylib_template.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\raylib_template.dir\\src\\UIElements\\Sprite.cpp.obj -c C:\\Users\\janek\\Projects\\BlatFormer\\src\\UIElements\\Sprite.cpp",
   "file": "C:/Users/janek/Projects/BlatFormer/src/UIElements/Sprite.cpp"
 },

@@ -14,10 +14,10 @@ namespace BlatFormer
         {
             friend class PlayingLevel;
 
-            const float GRAVITY_BASE = 9.18f;
+            const float GRAVITY_BASE = 9.18f * 2;
             const float DEACCELERATION_BY_SPEEDCAP = 0.1f;
             const float DEACCELERATION_PASSIVE = 0.9f;
-            const float MAX_JUMP_TIME = 0.05f;
+            const float MAX_JUMP_TIME = 0.2f;
 
         
 

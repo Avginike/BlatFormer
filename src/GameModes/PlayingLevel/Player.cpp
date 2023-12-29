@@ -1,8 +1,7 @@
 #include "GameModes/PlayingLevel.hpp"
 #include "main.hpp"
-
+#include "UIElements/DebugConsole.hpp"
 #include <raylib.h>
-
 #include <raymath.h>
 #include <iostream>
 
@@ -34,15 +33,15 @@ namespace BlatFormer
         }
 
 
-        if(abs(velocity.x) < 1.5f)
+        if(abs(velocity.x) < 200)
         {
             if(IsKeyDown(KEY_A))
             {
-                velocity.x -= 1000;
+                velocity.x -= 25;
             }
             else if(IsKeyDown(KEY_D))
             {
-                velocity.x += 1000;
+                velocity.x += 25;
             }
             else
             {
@@ -51,21 +50,24 @@ namespace BlatFormer
         }
         else
         {
-            velocity.x = Lerp(velocity.x, 0, pow(DEACCELERATION_BY_SPEEDCAP, GetFrameTime()));
+            velocity.x = Lerp(velocity.x, 0, DEACCELERATION_BY_SPEEDCAP);
         }
 
         static bool DidGravityReduction = false;
         static bool IsHoldJump = false;
+
         if(IsKeyPressed(KEY_SPACE) && IsGrounded())
         {
             IsHoldJump = true;
+            velocity.y = -300;
         }
-        if(IsKeyDown(KEY_SPACE) && jumptime < MAX_JUMP_TIME && IsHoldJump)
+        if(IsKeyDown(KEY_SPACE) && (jumptime < MAX_JUMP_TIME) && IsHoldJump)
         {
-            velocity.y = Lerp(velocity.y, -1000, pow(0.1f, GetFrameTime()));
+            
+            velocity.y = -300;
             jumptime += GetFrameTime();
             cout << jumptime << endl;
-            if(jumptime > 0.03 && !DidGravityReduction)
+            if(jumptime > MAX_JUMP_TIME * 2/3 && !DidGravityReduction)
             {
                 gravity /= 3;
                 DidGravityReduction = true;
@@ -80,6 +82,7 @@ namespace BlatFormer
             gravity = GRAVITY_BASE;
             jumptime = 0;
         }
+        
         for(int i = 0; i < TILES_VERTICAL + 1; i++)
         {
             for(int j = 0; j < TILES_HORIZONTAL; j++)
@@ -93,19 +96,22 @@ namespace BlatFormer
 
                     if(collisiontime != 1.0f)
                     {
+                        
                         float remainingtime = 1.0f - collisiontime;
                         position.x += velocity.x * collisiontime; 
                         position.y += velocity.y * collisiontime;
-
+                        level->SetGrid(j,i,2);
 
                         float DotProduct = Vector2DotProduct(Vector2{velocity.x, velocity.y}, Vector2{NormalX, NormalY}) * remainingtime;
                         velocity.x = DotProduct * NormalY;
                         velocity.y = DotProduct * NormalX;
+
                     }
                     
                 }
             }
         }
+        
 
 
     }
@@ -221,7 +227,7 @@ namespace BlatFormer
             {
                 if(level->GetGrid(j, i) != 0 && CheckCollision(BottomRectangle, Rectangle{ float(j * TILE_SIZE), float(i * TILE_SIZE), float(TILE_SIZE), float(TILE_SIZE)}))
                 {
-                    position.y = Lerp(position.y, i * TILE_SIZE - TILE_SIZE, 0.1f);
+                    position.y = Lerp(position.y, i * TILE_SIZE - TILE_SIZE, pow(1, GetFrameTime()));
                     return true;
                 }
             }

@@ -5,12 +5,14 @@
 #include <stack>
 #include <memory>
 
+
 #include "main.hpp"
 #include "DataStructures/GameMode.hpp"
 #include "GameModes/Menus.hpp"
 #include "UIElements/Button.hpp"
 #include "DataStructures/Level.hpp"
 #include "UIElements/Text.hpp"
+#include "UIElements/DebugConsole.hpp"
 #include "raymath.h"
 
 namespace BlatFormer
@@ -38,7 +40,7 @@ int main()
     SetRandomSeed(time(NULL));
 
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Cyka Blat!");
-
+    SetTargetFPS(60);
     LoadTexture(ASSETS_PATH"sprites/blat.png");
 
     TextProperty::MainFont = LoadFontEx(ASSETS_PATH"Roboto-Bold.ttf", 70, nullptr,0);
@@ -64,7 +66,9 @@ int main()
         GameMode::GameHasToExit = WindowShouldClose();
 
         GameMode::UpdateCurrentMode();
+        
         GameMode::RenderCurrentMode();
+        DebugConsole::Render();
         
 
         

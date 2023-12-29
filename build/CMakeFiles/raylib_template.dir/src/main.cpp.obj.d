@@ -199,6 +199,10 @@ CMakeFiles/raylib_template.dir/src/main.cpp.obj: \
  C:/Users/janek/Projects/BlatFormer/src/DataStructures/Disableable.hpp \
  C:\Users\janek\Projects\BlatFormer\src\DataStructures/Level.hpp \
  C:\Users\janek\Projects\BlatFormer\src\DataStructures/NibblePair.hpp \
+ C:\Users\janek\Projects\BlatFormer\src\UIElements/DebugConsole.hpp \
+ c:\path\mingw64\include\c++\12.2.0\list \
+ c:\path\mingw64\include\c++\12.2.0\bits\stl_list.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\list.tcc \
  C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raymath.h \
  c:\path\mingw64\include\c++\12.2.0\math.h \
  c:\path\mingw64\include\c++\12.2.0\cmath \

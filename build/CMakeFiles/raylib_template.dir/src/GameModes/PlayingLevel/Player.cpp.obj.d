@@ -169,6 +169,10 @@ CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj: \
  c:\path\mingw64\include\c++\12.2.0\bits\algorithmfwd.h \
  c:\path\mingw64\include\c++\12.2.0\bits\stl_heap.h \
  c:\path\mingw64\include\c++\12.2.0\bits\uniform_int_dist.h \
+ C:/Users/janek/Projects/BlatFormer/src/UIElements/DebugConsole.hpp \
+ c:\path\mingw64\include\c++\12.2.0\list \
+ c:\path\mingw64\include\c++\12.2.0\bits\stl_list.h \
+ c:\path\mingw64\include\c++\12.2.0\bits\list.tcc \
  C:/Users/janek/Projects/BlatFormer/libs/raylib/src/raymath.h \
  c:\path\mingw64\include\c++\12.2.0\math.h \
  c:\path\mingw64\include\c++\12.2.0\cmath \

@@ -496,6 +496,30 @@ src/UIElements/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.s
 .PHONY : src/UIElements/Button.cpp.s
 
+src/UIElements/DebugConsole.obj: src/UIElements/DebugConsole.cpp.obj
+.PHONY : src/UIElements/DebugConsole.obj
+
+# target to build an object file
+src/UIElements/DebugConsole.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj
+.PHONY : src/UIElements/DebugConsole.cpp.obj
+
+src/UIElements/DebugConsole.i: src/UIElements/DebugConsole.cpp.i
+.PHONY : src/UIElements/DebugConsole.i
+
+# target to preprocess a source file
+src/UIElements/DebugConsole.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.i
+.PHONY : src/UIElements/DebugConsole.cpp.i
+
+src/UIElements/DebugConsole.s: src/UIElements/DebugConsole.cpp.s
+.PHONY : src/UIElements/DebugConsole.s
+
+# target to generate assembly for a file
+src/UIElements/DebugConsole.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\raylib_template.dir\build.make CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.s
+.PHONY : src/UIElements/DebugConsole.cpp.s
+
 src/UIElements/Sprite.obj: src/UIElements/Sprite.cpp.obj
 .PHONY : src/UIElements/Sprite.obj
 
@@ -667,6 +691,9 @@ help:
 	@echo ... src/UIElements/Button.obj
 	@echo ... src/UIElements/Button.i
 	@echo ... src/UIElements/Button.s
+	@echo ... src/UIElements/DebugConsole.obj
+	@echo ... src/UIElements/DebugConsole.i
+	@echo ... src/UIElements/DebugConsole.s
 	@echo ... src/UIElements/Sprite.obj
 	@echo ... src/UIElements/Sprite.i
 	@echo ... src/UIElements/Sprite.s

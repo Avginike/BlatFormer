@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj.d"
   "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj"
   "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj.d"
+  "CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj"
+  "CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj.d"
   "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj"
   "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj.d"
   "CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj"

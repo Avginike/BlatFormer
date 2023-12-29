@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/janek/Projects/BlatFormer/src/GameModes/PlayingLevel/Player.cpp" "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj.d"
   "C:/Users/janek/Projects/BlatFormer/src/GameModes/PlayingLevel/PlayingLevel.cpp" "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj.d"
   "C:/Users/janek/Projects/BlatFormer/src/UIElements/Button.cpp" "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj.d"
+  "C:/Users/janek/Projects/BlatFormer/src/UIElements/DebugConsole.cpp" "CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj.d"
   "C:/Users/janek/Projects/BlatFormer/src/UIElements/Sprite.cpp" "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj.d"
   "C:/Users/janek/Projects/BlatFormer/src/UIElements/Text.cpp" "CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj.d"
   "C:/Users/janek/Projects/BlatFormer/src/UIElements/Text/TextProperty.cpp" "CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj" "gcc" "CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj.d"

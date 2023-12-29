@@ -233,11 +233,26 @@ CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.s"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\UIElements\Button.cpp -o CMakeFiles\raylib_template.dir\src\UIElements\Button.cpp.s
 
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/DebugConsole.cpp
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\DebugConsole.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\DebugConsole.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\DebugConsole.cpp
+
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.i"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\janek\Projects\BlatFormer\src\UIElements\DebugConsole.cpp > CMakeFiles\raylib_template.dir\src\UIElements\DebugConsole.cpp.i
+
+CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.s"
+	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\janek\Projects\BlatFormer\src\UIElements\DebugConsole.cpp -o CMakeFiles\raylib_template.dir\src\UIElements\DebugConsole.cpp.s
+
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_template.dir/flags.make
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Sprite.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Sprite.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Sprite.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Sprite.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_te
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Text.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Text.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Text.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Text.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.i: cmake_force
@@ -267,7 +282,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFi
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/Text/TextProperty.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\Text\TextProperty.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\Text\TextProperty.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\Text\TextProperty.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/rayl
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/UIElements/UIElement.cpp
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.obj -MF CMakeFiles\raylib_template.dir\src\UIElements\UIElement.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\UIElements\UIElement.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\UIElements\UIElement.cpp
 
 CMakeFiles/raylib_template.dir/src/UIElements/UIElement.cpp.i: cmake_force
@@ -297,7 +312,7 @@ CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/includes_CXX.rsp
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: C:/Users/janek/Projects/BlatFormer/src/main.cpp
 CMakeFiles/raylib_template.dir/src/main.cpp.obj: CMakeFiles/raylib_template.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/raylib_template.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/raylib_template.dir/src/main.cpp.obj"
 	C:\PATH\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/raylib_template.dir/src/main.cpp.obj -MF CMakeFiles\raylib_template.dir\src\main.cpp.obj.d -o CMakeFiles\raylib_template.dir\src\main.cpp.obj -c C:\Users\janek\Projects\BlatFormer\src\main.cpp
 
 CMakeFiles/raylib_template.dir/src/main.cpp.i: cmake_force
@@ -321,6 +336,7 @@ raylib_template_OBJECTS = \
 "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj" \
+"CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj" \
 "CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj" \
@@ -341,6 +357,7 @@ raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/Menus.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/Player.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/GameModes/PlayingLevel/PlayingLevel.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Button.cpp.obj
+raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/DebugConsole.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Sprite.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Text.cpp.obj
 raylib_template.exe: CMakeFiles/raylib_template.dir/src/UIElements/Text/TextProperty.cpp.obj
@@ -352,7 +369,7 @@ raylib_template.exe: libs/raylib/raylib/external/glfw/src/libglfw3.a
 raylib_template.exe: CMakeFiles/raylib_template.dir/linkLibs.rsp
 raylib_template.exe: CMakeFiles/raylib_template.dir/objects1
 raylib_template.exe: CMakeFiles/raylib_template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable raylib_template.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\janek\Projects\BlatFormer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable raylib_template.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\raylib_template.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
