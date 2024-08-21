@@ -6,6 +6,7 @@ namespace BlatFormer
     {
         Element.Render();
     }
+    
     void UIElement::Update(UIElement &Element)
     {
         Element.Update();

@@ -19,6 +19,7 @@ namespace BlatFormer
         for(int i = 1; i < 16; i++)
             Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2,i * (TILE_SIZE + 10),i);
         
+        Level::RenderBlock(SCREEN_WIDTH - TILE_SIZE * 0.75 - TILE_SIZE / 2, 16 * (TILE_SIZE + 10), 1);
         
     }
     void LevelEditor::TileSelector::Update()

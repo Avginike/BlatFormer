@@ -33,14 +33,13 @@ namespace BlatFormer
 }
 
 
-
 using namespace BlatFormer;
 int main()
 {
     SetRandomSeed(time(NULL));
 
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Cyka Blat!");
-    SetTargetFPS(60);
+    
     LoadTexture(ASSETS_PATH"sprites/blat.png");
 
     TextProperty::MainFont = LoadFontEx(ASSETS_PATH"Roboto-Bold.ttf", 70, nullptr,0);
@@ -70,7 +69,7 @@ int main()
         GameMode::RenderCurrentMode();
         DebugConsole::Render();
         
-
+        DrawFPS(SCREEN_WIDTH - 100, SCREEN_HEIGHT - 50);
         
        
         

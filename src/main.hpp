@@ -1,6 +1,9 @@
 #pragma once
 #include <vector>
 #include <functional>
+
+#define DEBUG
+
 namespace BlatFormer
 {
     

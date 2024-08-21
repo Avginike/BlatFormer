@@ -14,29 +14,31 @@ namespace BlatFormer
         {
             friend class PlayingLevel;
 
-            const float GRAVITY_BASE = 9.18f * 2;
+            const float GRAVITY_BASE = 9.18f * 0.1;
             const float DEACCELERATION_BY_SPEEDCAP = 0.1f;
             const float DEACCELERATION_PASSIVE = 0.9f;
-            const float MAX_JUMP_TIME = 0.2f;
+            const float MAX_JUMP_TIME = 0.5f;
 
         
 
             bool grounded{false};
             static Texture2D PlayerTexture;
 
+            Vector2 OldPosition{0};
             Vector2 velocity{0};
             float jumptime{0};
-            float gravity = 9.18f;
+            float gravity = GRAVITY_BASE;
 
             inline Rectangle GetGroundDetectRectangle();
             inline Rectangle GetPlayerRectangle();
-            
+            inline Rectangle GetCeilingDetectRectangle();
             Level* level;
 
-            float CheckCollision(Rectangle collider, float& NormalX, float& NormalY);
+            bool DoCollision();
             
             bool CheckCollision(Rectangle colliderA,Rectangle colliderB);
-            bool IsGrounded();
+            bool CheckRectangleOverlapsGround(Rectangle Rect);
+
 
             public:
                 void Start();
