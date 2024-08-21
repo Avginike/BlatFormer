@@ -50,20 +50,7 @@ namespace BlatFormer
 
        
 
-        if(DidCollide && velocity.y < 0)
-        {
-            position.y = OldPosition.y;
-            velocity.y = 0;
-        }
-        else if(DidCollide && velocity.y > 0)
-        {
-            position.y = OldPosition.y;
-            velocity.y = 0;
-        }
-        else
-        {
-            OldPosition = position;
-        }
+        
         
 
         /*
@@ -114,6 +101,19 @@ namespace BlatFormer
             velocity.x = Lerp(velocity.x, 0, DEACCELERATION_BY_SPEEDCAP);
         }
         
+        if(!CheckRectangleOverlapsGround(GetGroundDetectRectangle()))
+        {
+            velocity.y += gravity;
+            
+        }        
+        else
+        {
+            if(velocity.y > 0)
+            {
+                velocity.y = 0;
+            }
+            position.y = (int)position.y;
+        }
         
         
         //y movement
@@ -128,25 +128,23 @@ namespace BlatFormer
          && IsKeyPressed(KEY_SPACE))
         {
             
-                velocity.y = -500;
+                velocity.y = -1000;
                 IsJumping = true;
         }
         
         if(IsJumping)
         {
-            if(!IsKeyDown(KEY_SPACE))
+            if(!IsKeyDown(KEY_SPACE) || velocity.y > 0 )
             {
                 velocity.y /= 4;
                 IsJumping = false;
             }
-            if(velocity.y > 0)
-            {
-                IsJumping = false;
-            }
+           
+           
         }
 
 
-        DebugConsole::Log(std::to_string(velocity.y));
+        DebugConsole::Log(IsJumping ? "Jumping" : "Not Jumping");
         
         if(CheckRectangleOverlapsGround(GetCeilingDetectRectangle()))
         {
@@ -154,11 +152,7 @@ namespace BlatFormer
            position.y += 2;
             //IsHoldJump = false;
         }
-        if(!CheckRectangleOverlapsGround(GetGroundDetectRectangle()))
-        {
-            velocity.y += gravity;
-            
-        }        
+        
         
         #ifdef DEBUG
             DrawRectangleLines(GetGroundDetectRectangle().x, GetGroundDetectRectangle().y, GetGroundDetectRectangle().width, GetGroundDetectRectangle().height, RED);
